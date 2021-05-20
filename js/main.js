@@ -26,8 +26,8 @@ const addNote = (text = '') => {
         noteWrap.remove();
     })
 
-    // textarea.value = text;
-    // main.innerHTML = text
+    textarea.value = text;
+    main.innerHTML = text
 
     edit.addEventListener('click', () => {
         main.classList.toggle('hidden')
